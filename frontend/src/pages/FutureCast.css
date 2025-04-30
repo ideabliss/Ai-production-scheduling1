@@ -1,0 +1,96 @@
+/* src/pages/FutureCast.css */
+
+.futurecast-container {
+  display: flex;
+}
+
+.futurecast-content {
+  margin-left: 300px;
+  flex: 1;
+  padding: 20px;
+  background-color: #f4f6f9;
+  min-height: 100vh;
+}
+
+/* Overview Cards */
+.overview-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.overview-card {
+  background: #ffffff;
+  border-left: 6px solid #36b9cc;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.overview-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+}
+
+.overview-card h5 {
+  margin: 0 0 6px;
+  font-size: 16px;
+  color: #444;
+}
+
+.overview-card p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1cc88a;
+}
+
+/* Graph and Tables */
+.graph-section,
+.production-plan,
+.insights-section,
+.upload-section {
+  background: white;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+}
+
+.forecast-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.forecast-table th,
+.forecast-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+  font-size: 14px;
+}
+
+/* Insights */
+.insights-section ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.insights-section li {
+  margin-bottom: 8px;
+  color: #333;
+  font-size: 15px;
+}
+
+/* Upload Section */
+.upload-section input[type='file'] {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  width: 100%;
+}
+

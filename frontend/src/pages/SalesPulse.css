@@ -1,0 +1,110 @@
+.salespulse-wrapper {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .main-content{
+    margin-left: 300px;
+    flex: 1;
+    padding: 30px;
+    overflow-y: auto;
+  }
+  
+  
+  /* Header Styling (optional) */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .header h2 {
+    font-size: 24px;
+    color: #111827;
+  }
+  
+  /* Overview Card Styling */
+  .overview-card {
+    background: #ffffff;
+    border-left: 6px solid #36b9cc;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+  }
+  
+  .overview-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .overview-card h5 {
+    margin: 0 0 6px;
+    font-size: 16px;
+    color: #444;
+  }
+  
+  .overview-card p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1cc88a;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Sections */
+  .section {
+    background: #ffffff;
+    padding: 20px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+  }
+  
+  .section h3 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+    color: #1f2937;
+  }
+  
+  .sales-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+  }
+  
+  .product-entry {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  
+  .sales-form input {
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  .upload-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  .mt-3 {
+    margin-top: 1.5rem;
+  }
+  
+  .mt-4 {
+    margin-top: 2rem;
+  }
+  
